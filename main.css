@@ -979,11 +979,25 @@ height: 95px;
 }
 
 #info{
+	padding:20px;
 	width:600px;
 	color:white;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+#info:hover{
+	-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	text-shadow:3px 3px 12px 10px white;
+	border-radius:10px;
+	transform: scale(1.1);
+
+
 }
 
 #info_box{
+width:600px;
 
 }
 
