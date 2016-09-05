@@ -707,7 +707,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 	background:url(static/html.jpg) no-repeat;
 	background-size:200px 200px;
 	background-position: center;
-	top:2875px;
+	top:3175px;
 }
 
 #stop_gap{
@@ -722,7 +722,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #table_2{
 		position:absolute;
-	top:2650px;
+	top:2950px;
 	font-size:40px;
 	left:300px;
 	font-family: 'Lato', sans-serif;
@@ -739,7 +739,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #table_3{
 		position:absolute;
-	top:2650px;
+	top:2950px;
 	font-size:40px;
 	left:520px;
 	font-family: 'Lato', sans-serif;
@@ -757,7 +757,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #table_4{
 		position:absolute;
-	top:2870px;
+	top:3170px;
 	font-size:40px;
 	left:80px;
 	font-family: 'Lato', sans-serif;
@@ -775,7 +775,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #table_5{
 		position:absolute;
-	top:2875px;
+	top:3175px;
 	font-size:40px;
 	left:520px;
 	font-family: 'Lato', sans-serif;
@@ -793,7 +793,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #table_6{
 		position:absolute;
-	top:2650px;
+	top:2950px;
 	font-size:40px;
 	left:80px;
 	font-family: 'Lato', sans-serif;
@@ -1001,3 +1001,18 @@ width:600px;
 
 }
 
+#info{
+	position:absolute;
+	top:400px;
+	left:-480px;
+	z-index:99999;
+	bottom:100px;
+}
+
+#stop_gap{
+	top:2700px;
+}
+
+#name{
+	left:20px;
+}
