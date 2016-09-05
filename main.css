@@ -1003,6 +1003,7 @@ width:600px;
 
 #info{
 	position:absolute;
+	text-decoration:bold;
 	top:400px;
 	left:-480px;
 	z-index:99999;
