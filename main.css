@@ -570,6 +570,38 @@ video, #vidR, #vidS, #vidE, #vidP{
 	height:190px;
 
 }
+
+#info{
+	padding:20px;
+	width:600px;
+	color:white;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+#info:hover{
+	-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	text-shadow:3px 3px 12px 10px white;
+	border-radius:10px;
+	transform: scale(1.1);
+
+
+}
+
+#info_box{
+width:600px;
+
+}
+
+#info{
+	position:absolute;
+	text-decoration:bold;
+	top:400px;
+	left:-10px;
+	z-index:99999;
+	bottom:100px;
+}
 /*  							---images_used---
 
 				1.jelly.png, 2.newjs.jpg, 3.html.jpg, 4.angular.jpg
@@ -976,7 +1008,7 @@ height: 95px;
 #txt_2{
 	opacity:0;
 }
-}
+
 
 #info{
 	padding:20px;
@@ -1016,4 +1048,5 @@ width:600px;
 
 #name{
 	left:20px;
+}
 }
